@@ -436,7 +436,7 @@ display: flex;
   
     text-align: center !important;
     background-color: #000000 !important;
-    color: #e5ff6a !important;
+    color: #ffffff !important;
     padding: 15px 1px 13px 1px !important;
     border: 1.5px solid #000000 !important;
     cursor: pointer !important;
@@ -557,7 +557,7 @@ box-shadow: 0 0 0px 7px #e8ff7a1f;
       -moz-appearance: none;
 text-align: center !important;
     background-color: color(display-p3 0 0 0)!important;
-    color: #e5ff6a !important;
+    color: #ffffff !important;
     padding: 8px 20px 7px 20px !important;
     cursor: pointer !important;
     font-family: "saasduoPAR" !important;
@@ -643,19 +643,36 @@ text-align: center !important;
     
         .tag1:hover {
     transition-duration: 0s !important;
-    box-shadow: 0 0 0px 7px #00000024;
-    border: 1px solid #00000024;
+    background-color: #000000;
+    border: 1px solid #000000;
+    color: #ffffff;
+
 }
     
-            .tag2:hover {
-    transition-duration: 0s !important;
-    box-shadow: 0 0 0px 7px #00000024;
-    border: 1px solid #00000024;
-}
+      
     .tag1 {
 text-align: center;
+    background-color: #e5ff6a;
+    color: #000000;
+    padding: 8px 12px 8px 12px !important;
+    border: 1px solid #e5ff6a;
+    cursor: pointer;
+    font-family: "saasduoPAR";
+    font-weight: 100;
+    letter-spacing: -0.2px;
+    font-size: 18px;
+    border-radius: 35px;
+    margin-left: 0px;
+    z-index: 999999999;
+    width: 195px;
+    text-decoration: none;
+    margin-right: 0px;
+}
+    
+    .tag2 {
+text-align: center;
     background-color: #000000;
-    color: #e5ff6a;
+    color: #ffffff;
     padding: 8px 12px 8px 12px !important;
     border: 1px solid #000000e6;
     cursor: pointer;
@@ -668,26 +685,7 @@ text-align: center;
     z-index: 999999999;
     width: 195px;
     text-decoration: none;
-          margin-right: 5px;
-}
-    
-    .tag2 {
-text-align: center;
-    background-color: #000000;
-    color: #e5ff6a;
-    padding: 8px 12px 8px 12px !important;
-    border: 1px solid #000000e6;
-    cursor: pointer;
-    font-family: "saasduoPAR";
-    font-weight: 100;
-    letter-spacing: -0.2px;
-    font-size: 18px;
-    border-radius: 35px;
-    margin-left: 10px;
-    z-index: 999999999;
-    width: 195px;
-    text-decoration: none;
-          margin-right: 5px;
+          margin-right: 0px;
 }
     
             .gauche {
@@ -699,6 +697,17 @@ display: flex
     margin-bottom: 0px;
     margin-left: 15px;
 }
+    
+            .hvi {
+    background: #c2d859;
+    border-radius: 97px;
+    height: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 14px;
+    margin-top: -12px;
+    margin-bottom: -12px;
+}
   </style>
 </head>
 <body>
@@ -706,10 +715,11 @@ display: flex
 <div class="gauche">
 <a href="https://edixmatic.com/"><img src="https://cdn.glitch.global/bc7c2627-5dd9-4ad8-9dbe-07e5a31cd361/IDENTITY%20EDIXMATIC%20BLACK.svg?v=1743951473305" alt="Logo" /></a>
 <div class="groupeto">
+  <div class="hvi">
 <a class="tag2" href="mailto:contact@demo.com">Sport</a>
 <a class="tag1" href="mailto:contact@demo.com">Médical</a>
 <a class="tag1" href="mailto:contact@demo.com">Logiciel</a>
-</div></div>
+</div></div></div>
 <div class="select-wrapper">
 <select id="dropdown">
 <option value="" disabled selected hidden>Parcourir nos solutions</option>
