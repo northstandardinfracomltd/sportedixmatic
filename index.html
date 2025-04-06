@@ -1,72 +1,976 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- 
-      This is an HTML comment
-      You can write text in a comment and the content won't be visible in the page
-    -->
-
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta name="google" content="notranslate" />
     <meta charset="utf-8" />
+      <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <title>EdiXmatic : Moteur de vos synergies</title>
+    <link
+      rel="icon"
+      href="https://cdn.glitch.global/7aefa714-d318-48a4-8880-f5aee91469a4/dzedzeadzefcefaezd.png?v=1741044249086"
+    />
+    <link rel="canonical" href="edixmatic.com" />
 
-    <!--
-      This is the page head - it contains info the browser uses
-      Like the title, which appears on the browser tab but not inside the page
-      Further down you'll see the content that displays in the page
-    -->
-    <title>Hello World!</title>
+    <meta
+      name="description"
+      content="EdiXmatic est un éditeur de solutions personnalisées pour fournir des expériences intuitives, simples et agréables pour les utilisateurs, avec pour mission de rendre synchrone et logique le physique et le digital, pour répondre à des usages complexes et critiques, souvent avec des fonctions internes et externes."
+    />
+    <meta property="og:title" content="EdiXmatic : Moteur de vos synergies" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="edixmatic.com" />
+    <meta
+      property="og:description"
+      content="EdiXmatic est un éditeur de solutions personnalisées pour fournir des expériences intuitives, simples et agréables pour les utilisateurs, avec pour mission de rendre synchrone et logique le physique et le digital, pour répondre à des usages complexes et critiques, souvent avec des fonctions internes et externes."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.global/7aefa714-d318-48a4-8880-f5aee91469a4/seoseoseo123.png?v=1741044613337"
+    />
+    <meta
+      name="twitter:card"
+      content="EdiXmatic est un éditeur de solutions personnalisées pour fournir des expériences intuitives, simples et agréables pour les utilisateurs, avec pour mission de rendre synchrone et logique le physique et le digital, pour répondre à des usages complexes et critiques, souvent avec des fonctions internes et externes."
+    />
+    <meta
+      name="keywords"
+      content="edixmatic"
+    />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      font-family: sans-serif;
+      background: color(display-p3 0.18 0.06 0.31);
+    }
+    
 
-    <!-- The website stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
+@media (min-width: 200px) and (max-width: 1024px) {
+header {
+    display: block !important;
+      position: static !important;
+}
+  .groupeto {
+    display: none !important;
+}
+  
+  .gauche {
+    display: block !important;
+    text-align: center !important;
+}
+select {
+  margin-left: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-top: 10px !important;
 
-    <!-- The website JavaScript file -->
-    <script src="/script.js" defer></script>
-  </head>
-  <body>
-    <!--
-      The body includes the content you see in the page
-      Each element is defined using tags, like this <div></div>
-      The attributes like class="wrapper" let us style elements in the CSS
-    -->
-    <div class="wrapper">
-      <div class="content" role="main">
-        <h1 class="title">Hello World!</h1>
-        <img
-          src="https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2Fillustration.svg?v=1618177344016"
-          class="illustration"
-          alt="Editor illustration"
-          title="Click the image!"
-        />
-        <div class="instructions">
-          <h2>Using this project</h2>
-          <p>
-            This is the Glitch <strong>Hello Website</strong> project. You can
-            use it to build your own site. Check out the code in the editor and open
-            the <span class="fileopener" data-file="TODO.md" data-line="0"
-              >TODO</span> for next steps!
-          </p>
-          <!--  🚧 TODO: ADD BUTTON HERE -->
+  text-align: center; /* pour le texte dans le select */
+  text-align-last: center; /* Firefox + Android/Chrome */
+  -webkit-appearance: none; /* supprime le style iOS natif */
+  -moz-appearance: none;
+  appearance: none;
+  padding-right: 1.5em; /* pour éviter que le texte touche la flèche */
+  background: none; /* peut être personnalisé */
+}
+  
+  .right {
+    border-top: 1px solid #0000001a;
+    margin-top: -4px;
+}
+  .select-wrapper {
+    display: block !important;
+}
+  
+  body {
+      overflow: auto;
+    }
+  
+  body {
+  overflow-x: hidden;
+}
+  
+  .container {
+    display: block !important;
+}
+    
+  .left {
+    background: color(display-p3 0.91 0.99 0.5) !important;
+  }
+  
+  .left img {
+    max-height: 290px;
+}
+  
+  .right h1 {
+    font-size: 18px !important;
+    padding-bottom: 35px !important;
+    letter-spacing: 0px !important;
+    font-family: "saasduoPAR" !important;
+        line-height: 27px !important;
+}
+  header img {
+    height: 70px;
+}
+  .buttonsair {
+    display: block !important;
+}
+  
+  .right a {
+    margin-bottom: 15px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+  .catalog {
+    width: 230px !important;
+}
+  
+  
+    .IKO {
+  display: block !important;
+}
+  .mon-paragraphe {
+    text-align: center !important;
+}
+  
+  .partnersB {
+    display: block !important;
+            justify-items: center !important;
+}
+  
+  .flush{
+    text-align: center !important;
+}
+  
+  
+}
+    
+    
+          .sous-titreinfoable {
+        margin-top: 10px;
+        text-align: left;
+        font-size: 16px !important;
+        font-family: "saasduoPAR" !important;
+        letter-spacing: 0px;
+        color: #fff;
+        line-height: 26px;
+        font-weight: 500;
+        cursor: default;
+      }
 
-          <!-- Once you've added the button from TODO.md, click it in the page -->
-          <!-- Check out the function in script.js to see how it works -->
+      .sticky-cta-bar {
+background-color: color(display-p3 0 0 0) !important;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    border-top:none;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1999992929292929299292929292999;
+      }
+
+      .cta-text {
+        flex: 1;
+        margin-right: 10px;
+      }
+
+      .cta-button {
+        background-color: #ff6600;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      @media (max-width: 768px) {
+        .sticky-cta-bar {
+          flex-direction: column;
+          text-align: left !important;
+          padding: 10px;
+          padding-bottom: 20px !important;
+        }
+
+        .fermerinfoable {
+          margin-left: 8.5px;
+          margin-right: auto;
+          margin-left: 10.5px !important;
+    
+        }
+
+        .cta-text {
+          margin-bottom: 12px;
+          margin-left: 10px;
+        }
+      }
+
+      .linkcookies {
+        color: #e8ff7a !important;
+        text-decoration: none;
+      }
+
+      .linkcookies:hover {
+        text-decoration: underline;
+      }
+      
+      
+          .fermerinfoable {
+background-color: color(display-p3 0 0 0) !important;
+    color: #e8ff7a;
+    border: 1px solid #e8ff7a;
+        padding: 8px 15px;
+
+        cursor: pointer;
+        font-family: "saasduoPAR" !important;
+        font-weight: 100;
+        letter-spacing: -0.2px;
+        font-size: 22px;
+        border-radius: 15px !important;
+        margin-left: 0px;
+        height: 55px;
+        padding-left: 23px;
+        padding-right: 23px;
+        padding-top: 9px;
+      }
+
+      .fermerinfoable:hover {
+box-shadow: 0 0 0px 7px #e8ff7a1f;
+        cursor: pointer;
+        transition-duration: 0s;
+      }
+      
+     
+      
+    
+          
+              ::selection {
+        background-color: #e2ff5a5c;
+        color: #1b1b20;
+      }
+
+      @font-face {
+        font-family: saasduoTIL;
+        font-weight: bold;
+        src: url("https://cdn.glitch.global/4d7db198-d06b-43a0-a17b-b43d16d2bbce/SaaSduo%20Secondary?v=1692806478312")
+          format("opentype");
+      }
+
+      @font-face {
+        font-family: saasduoPAR;
+        font-weight: bold;
+        src: url("https://cdn.glitch.global/4d7db198-d06b-43a0-a17b-b43d16d2bbce/SaaSduo%20more?v=1692822723823")
+          format("opentype");
+      }
+
+      @font-face {
+        font-family: saasduoBTN;
+        font-weight: bold;
+        src: url("https://cdn.glitch.global/4d7db198-d06b-43a0-a17b-b43d16d2bbce/SaaSduo%20Button?v=1692822927520")
+          format("opentype");
+      }
+
+    
+    
+    header {
+      position: sticky;
+      top: 0;
+background: #004159;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    padding: 18px 25px;
+      z-index: 10;
+    }
+    header img {
+      height: 58px;
+    }
+    .dropdown {
+      position: relative;
+    }
+    .dropdown-btn {
+      background: none;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      color: #fff;
+    }
+    
+    select:hover {
+    transition-duration: 0s !important;
+    box-shadow: 0 0 0px 7px #008eff38;
+    border: 1px solid #008eff38;
+}
+    select:focus {
+  outline: none;
+}
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      right: 0;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      min-width: 120px;
+    }
+    .dropdown-content div {
+      padding: 10px;
+      cursor: pointer;
+    }
+    .dropdown-content div:hover {
+      background-color: #f0f0f0;
+    }
+    .container {
+      display: flex;
+      height: calc(100% - 62px);
+    }
+    .left {
+      flex: 55%;
+      background: color(display-p3 0.18 0.06 0.31);
+    }
+    .left img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 1;
+      transition: opacity 0.5s ease;
+    }
+    .right {
+    flex: 45%;
+    padding: 40px;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(45deg, #d5ec68, #e5ff6a);
+      border-left: 1px solid #0000001a;
+    }
+   .right p {
+    opacity: 1;
+    color: #000;
+    transition: opacity 0.5s ease;
+    text-align: left;
+    cursor: default;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 27px;
+    font-family: "saasduoPAR" !important;
+    }
+    
+
+
+    .right h1 {
+    letter-spacing: -1px;
+    color: #000;
+    line-height: 84px;
+    opacity: 1;
+    color: #000;
+    transition: opacity 0.5s ease;
+    font-family: "saasduoPAR";
+    margin-top: -10px;
+     margin-bottom: -30px;
+    text-align: left;
+    cursor: default;
+    font-weight: 400;
+    font-size: 30px;
+    }
+    .right a {
+  
+text-align: center;
+    background-color: #00000000 ;
+    color: #000000;
+    padding: 15px 1px 13px 1px !important;
+    border: 1.5px solid #000000 ;
+    cursor: pointer ;
+    font-family: "saasduoPAR" ;
+    font-weight: 100 ;
+    letter-spacing: -0.2px ;
+    font-size: 22px ;
+    border-radius: 15px ;
+    margin-left: 0px ;
+    z-index: 999999999 ;
+    width: 195px;
+    text-decoration: none;
+
+    }
+    .right a:hover {
+    transition-duration: 0s !important;
+    box-shadow: 0 0 0px 7px #00000024;
+}
+    
+        .buttonsair {
+display: flex;
+          gap: 17px;
+
+    }
+    
+    
+        .catalog {
+  
+    text-align: center !important;
+    background-color: #000000 !important;
+    color: #e5ff6a !important;
+    padding: 15px 1px 13px 1px !important;
+    border: 1.5px solid #000000 !important;
+    cursor: pointer !important;
+    font-family: "saasduoPAR" !important;
+    font-weight: 100 !important;
+    letter-spacing: -0.2px !important;
+    font-size: 22px !important;
+    border-radius: 15px !important;
+    z-index: 999999999 !important;
+    width: 285px !important;
+    text-decoration: none !important;
+
+    }
+    
+          .sous-titreinfoable {
+        margin-top: 10px;
+        text-align: left;
+        font-size: 16px !important;
+        font-family: "saasduoPAR" !important;
+        letter-spacing: 0px;
+        color: #fff;
+        line-height: 26px;
+        font-weight: 500;
+        cursor: default;
+      }
+
+      .sticky-cta-bar {
+background-color: color(display-p3 0 0 0) !important;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    border-top:none;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1999992929292929299292929292999;
+      }
+
+      .cta-text {
+        flex: 1;
+        margin-right: 10px;
+      }
+
+      .cta-button {
+        background-color: #ff6600;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      @media (max-width: 768px) {
+        .sticky-cta-bar {
+          flex-direction: column;
+          text-align: left !important;
+          padding: 10px;
+          padding-bottom: 20px !important;
+        }
+
+        .fermerinfoable {
+          margin-left: 8.5px;
+          margin-right: auto;
+          margin-left: 10.5px !important;
+    
+        }
+
+        .cta-text {
+          margin-bottom: 12px;
+          margin-left: 10px;
+        }
+      }
+
+      .linkcookies {
+        color: #e8ff7a !important;
+        text-decoration: none;
+      }
+
+      .linkcookies:hover {
+        text-decoration: underline;
+      }
+      
+      
+          .fermerinfoable {
+background-color: color(display-p3 0 0 0) !important;
+    color: #e8ff7a;
+    border: 1px solid #e8ff7a;
+        padding: 8px 15px;
+
+        cursor: pointer;
+        font-family: "saasduoPAR" !important;
+        font-weight: 100;
+        letter-spacing: -0.2px;
+        font-size: 22px;
+        border-radius: 15px !important;
+        margin-left: 0px;
+        height: 55px;
+        padding-left: 23px;
+        padding-right: 23px;
+        padding-top: 9px;
+      }
+
+      .fermerinfoable:hover {
+box-shadow: 0 0 0px 7px #e8ff7a1f;
+        cursor: pointer;
+        transition-duration: 0s;
+      }
+      
+    .select-wrapper {
+      display: inline-block;
+      position: relative;
+    }
+
+    select {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+text-align: center !important;
+    background-color: color(display-p3 0 0.50588 0.94902) !important;
+    color: #fff !important;
+    padding: 8px 20px 7px 20px !important;
+    cursor: pointer !important;
+    font-family: "saasduoPAR" !important;
+    font-weight: 100 !important;
+    letter-spacing: -0.2px !important;
+    font-size: 22px !important;
+    border-radius: 15px !important;
+    margin-left: 14px ;
+    height: 54px !important;
+    z-index: 999999999 !important;
+    border: 1px solid color(display-p3 0 0.50588 0.94902) !important;
+      width: auto;
+    }
+
+        .mon-paragraphe {
+      font-size: 13px !important;
+      font-family: Arial, sans-serif;
+      color: #333;
+      line-height: 1.6;
+          border: none !important;
+    }
+
+    .mon-paragraphe a {
+      color: #0077cc;
+      text-decoration: none;
+      font-weight: bold;
+            font-size: 13px;
+
+                border: none !important;
+    }
+
+    .mon-paragraphe a:hover {
+      text-decoration: underline;
+    transition-duration: 0s !important;
+    box-shadow: 0 0 0px 7px transparent;
+    }
+    
+    
+    #ghost {
+      position: absolute;
+      visibility: hidden;
+      white-space: nowrap;
+      padding: 8px 12px;
+      font: inherit;
+    }
+
+    .partners {
+      height: 50px;
+      text-align: left;
+      margin-right: 15px;
+    }
+    
+        .partnersB {
+      display: flex;
+          margin-top: 20px;
+    }
+    
+    .partnersTXT {
+    opacity: 1;
+    color: #000;
+    transition: opacity 0.5s ease;
+    text-align: left;
+    cursor: default;
+    font-weight: 400;
+    font-size: 10px !important;
+    letter-spacing: 0px;
+    line-height: 35px;
+    font-family: "saasduoPAR" !important;
+}
+    
+    
+    .tag1 {
+    text-align: center;
+    background-color: #1d1c1c;
+    color: #ffffff;
+    padding: 8px 12px 8px 12px !important;
+    border: 1px solid #2e2e2e;
+    cursor: pointer;
+    font-family: "saasduoPAR";
+    font-weight: 100;
+    letter-spacing: -0.2px;
+    font-size: 16px;
+    border-radius: 35px;
+    margin-left: 0px;
+    z-index: 999999999;
+    width: 195px;
+    text-decoration: none;
+}
+    
+    .tag2 {
+    text-align: center;
+    background-color: #e3fc6a1c;
+    color: #e3fc69;
+    padding: 8px 12px 8px 12px !important;
+    border: 1px solid #e3fc6a29;
+    cursor: pointer;
+    font-family: "saasduoPAR";
+    font-weight: 100;
+    letter-spacing: -0.2px;
+    font-size: 16px;
+    border-radius: 35px;
+    margin-left: 0px;
+    z-index: 999999999;
+    width: 195px;
+    /* margin-bottom: 196px; */
+    text-decoration: none;
+}
+    
+            .gauche {
+display: flex
+}
+    
+        .groupeto {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+  </style>
+</head>
+<body>
+<header>   
+<div class="gauche">
+<a href="https://edixmatic.com/"><img src="https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/Logo.svg?v=1743373657296" alt="Logo" /></a>
+<div class="groupeto">
+<a class="tag2" href="mailto:contact@demo.com">Sport</a>
+<a class="tag1" href="mailto:contact@demo.com">Médical</a>
+<a class="tag1" href="mailto:contact@demo.com">Logiciels</a>
+</div></div>
+<div class="select-wrapper">
+<select id="dropdown">
+<option value="" disabled selected hidden>Parcourir nos solutions</option>
+<option value="a1">Container modulaire</option>
+<option value="b2">Garage à matériels</option>
+  <option value="a11">Distributeur collations</option>
+<option value="a12">Distributeur boissons</option>
+<option value="c3">Miroir vidéo</option>
+<option value="a2">Contrôle d'accès</option>
+<option value="a3">Tunnel simulateur</option>
+<option value="a20">Vestiaire américain</option>
+<option value="a4">Bains pour la récupération</option>
+<option value="a7">Gym</option>
+<option value="a5">Chambres</option>
+<option value="a6">Pratique du vélo en indoor</option>
+<option value="a8">Pressothérapie</option>
+<option value="a9">Massages</option>
+<option value="a10">Yoga</option>
+<option value="a14">Espaces extrasportifs</option>
+<option value="a15">Atelier mécanique</option>
+<option value="a16">Station de lavage</option>
+<option value="a19">Bus et camions aménagés</option>
+<option value="a17">Voiture cycliste de service</option>
+<option value="a18">Parking et bornes énergies</option>
+<option value="a21">Lavomatique</option>
+<option value="a13">Commerce et social</option>
+<option value="a99">Défibrillateurs</option>
+  </select>
+  <span id="ghost"></span>
+</div>
+
+  </header>
+
+  <div class="container">
+    <div class="left">           
+  <img id="main-img" src="https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/22.svg?v=1743371466056" alt="Illustration" />
+
+
+    
+    </div>
+    <div class="right">
+      <h1 id="main-title">Moteur de vos synergies</h1>
+<p id="main-paragraph">
+  Nous créons des expériences articulées dans le sport pour les chaines d'hotels, établissement spécique, équipes pour alimenter leurs services et booster ou fidéliser l'attrition de nouveaux clients.
+</p>
+      
+
+      
+      <div class="buttonsair">
+        
+        <a class="IKO" href="mailto:contact@demo.com">Nous contacter</a>
+            <a  href="https://sport.edixmatic.com/catalog" class="catalog IKO">Voir le catalogue</a>
+     </div>
+       <div class="partnersB">
+
+          <img class="partners" src="https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/approvedpartners.svg?v=1743408276786" alt="Logo" />
+                <p class="partnersTXT flush">Des solutions élaborées avec des institutions prestigieuses.</p>
+
+      </div>
+<p class="mon-paragraphe">Autres pages: <a href="https://edixmatic.com/">Site principal</a> - <a  href="https://edixmatic.com/">Language : English</a> - <a  href="https://edixmatic.com/privacy">Confidentialité</a> - <a  href="https://edixmatic.com/terms">Termes</a></p>      
+  </div>
+  </div>
+
+      <div class="sticky-cta-bar" id="maDiv">
+      <div class="cta-text">
+        <div class="sous-titreinfoable lazyload">
+          Nous utilisons des cookies et des technologies similaires pour mémoriser vos préférences et comprendre votre parcours. Nous stockons des données dépersonnalisées pour obtenir des statistiques et améliorer la performance de notre site — En utilisant 
+          <a href="/" class="linkcookies">edixmatic.com</a>, vous acceptez l'utilisation de tous les cookies ainsi que notre 
+          <a target="_blank" href="/privacy" class="linkcookies"
+            >politique de confidentialité.</a
+          >
+         Nous collectons des informations personnelles vous concernant uniquement lorsque vous complétez notre formulaire.
         </div>
       </div>
+      <button class="fermerinfoable lazyload" onclick="masquerDiv()">
+        Fermer
+      </button>
+
+      <script>
+        function masquerDiv() {
+          var div = document.getElementById("maDiv");
+          div.style.display = "none";
+        }
+      </script>
     </div>
-    <!-- The footer holds our remix button — you can keep or delete it ✂ -->
-    <footer class="footer">
-      <div class="links"></div>
-      <a
-        class="btn--remix"
-        target="_top"
-        href="https://glitch.com/edit/#!/remix/glitch-hello-website"
-      >
-        <img
-          src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
-          alt=""
-        />
-        Remix on Glitch
-      </a>
-    </footer>
-  </body>
+  
+  
+  <script>
+    const data = {
+
+      a1: {
+        img: "https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/1.svg?v=1743371836488",
+        title: "Container modulaire",
+        paragraph: "Un container de 6 à 12 mètres à installer par exemple sur votre parking (ou sur la base d’un algeco), habillé aux couleurs de votre structure, intégrant tout le nécessaire pour proposer une offre sport dédiée au cyclisme ou au ski selon la configuration choisie. Il peut accueillir un vestiaire, des racks à vélos (individuels ou collectifs), un kit d’entretien mécanique, une mini station de lavage, un distributeur de collations, etc. Son accès est facilité grâce à un système de contrôle d’accès et un système de protection est intégré. L’extérieur est entièrement personnalisable selon vos envies et les contraintes du PLU : toit végétalisé, choix de couleurs, éclairages, etc."
+      },
+      b2: {
+        img: "https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/8.svg?v=1743371870507",
+        title: "Garage à matériels",
+        paragraph: "Nous concevons des cages sur mesure, adaptées à vos envies, à votre espace (garage, sous-sol, etc.) et à votre univers sportif. Chaque configuration est personnalisable en dimensions, équipements et revêtements, que ce soit pour le cyclisme ou le ski. Nous intégrons des racks individuels ou collectifs pour accueillir aussi bien les équipements volumineux que les petits accessoires des utilisateurs. Des options supplémentaires peuvent être ajoutées : systèmes de protection, contrôle d’accès, ou encore miroirs vidéo en ligne."
+      },
+      c3: {
+        img: "https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/6.svg?v=1743371438938",
+        title: "Miroir vidéo",
+        paragraph: "Notre système de miroir vidéo permet à vos usagers de garder un œil sur leur matériel à tout moment, qu’il s’agisse de vélos, de skis ou d’autres équipements. Grâce à une simple page web accessible en ligne depuis n’importe où, ils peuvent visualiser en temps réel leurs effets personnels déposés dans votre structure, dans les cages à équipements. Un service rassurant, qui leur permet de vérifier que tout est en ordre à tout moment. Au-delà de cette fonctionnalité utilisateur, le dispositif offre un double usage : l’enregistrement continu transforme le miroir vidéo en système de vidéosurveillance, utile pour la protection des biens et la gestion d’éventuels cas de vol ou de dégradation."
+      },
+      
+           a2: {
+        img: "https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/7.svg?v=1743371864224",
+        title: "Contrôle d'accès",
+        paragraph: "Selon l’offre expérience sport que vous proposez, nous installons un système de contrôle d’accès permettant de gérer différents niveaux de droits selon les abonnements souscrits, ou de limiter l’accès à certains créneaux horaires. Nous recommandons l’usage de serrures connectées principalement pour des espaces comme les vestiaires, les cages à équipements, les salles de gym, ou tout autre lieu nécessitant une gestion d’accès. L’ouverture peut se faire via une carte NFC ou une application mobile, selon votre préférence et le profil de vos usagers."
+      },
+      
+           a3: {
+        img: "https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/5.svg?v=1743371436419",
+        title: "Tunnel simulateur",
+        paragraph: "Très recherché par les cyclistes souhaitant optimiser leurs performances, nous concevons et installons des tunnels à vent permettant de simuler la biomécanique du cycliste et d’améliorer sa position, quelle que soit la discipline pratiquée. L’installation nécessite un espace minimum de 35 m². Si le tunnel est intégré dans un environnement partagé avec d’autres activités, une étude d’isolation phonique est recommandée afin de maintenir le niveau sonore en dessous de 75 dB. Le dispositif est entièrement personnalisable aux couleurs de votre établissement, maximisant ainsi sa visibilité sur les réseaux sociaux. Le panneau de contrôle intuitif facilite l’usage du tunnel, le rendant accessible au plus grand nombre."
+      },
+                 a20: {
+        img: "https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/pd.svg?v=1743372564786",
+        title: "Vestiaire américain",
+        paragraph: "Nous concevons des vestiaires de A à Z, à la hauteur de vos ambitions, pour offrir une expérience inoubliable à vos usagers. Fonctionnels et esthétiques, nos vestiaires marquent les esprits par une empreinte visuelle forte et prestigieuse. Entièrement adaptés à votre sport (cyclisme, ski, hockey sur glace, football, basketball, etc.) et au profil de vos pratiquants — qu’ils soient amateurs ou professionnels —, ils allient ergonomie, robustesse et design. Nous sélectionnons des matériaux durables et faciles d’entretien, conformes aux normes les plus récentes, tout en laissant libre cours à la créativité de notre architecte spécialisé en environnements sportifs. Bien plus qu’un simple espace de préparation, un vestiaire à l’américaine devient un véritable outil de communication, idéal pour les réseaux sociaux et pour dynamiser vos partenariats."
+      },
+      
+           a4: {
+        img: "https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/3.svg?v=1743371430753",
+        title: "Bains pour la récupération",
+        paragraph: "Nous concevons des espaces humides équipés de bains chauds et froids dédiés à la récupération. Pensés pour offrir une expérience de relaxation optimale, ils allient simplicité d’usage, robustesse et qualité d’installation. Chaque aménagement est personnalisé à l’image de votre établissement. Les équipements sont sélectionnés et adaptés selon le profil de vos usagers ; sportifs professionnels ou amateurs, et en fonction des disciplines pratiquées. Nous sommes l’architecte de votre solution sportive : de la conception à la réalisation, nous collaborons avec notre partenaire expert de la construction pour vous offrir toutes les garanties techniques."
+      },
+                 a7: {
+        img: "https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/15.svg?v=1743371456043",
+        title: "Gym",
+        paragraph: "Généralement associé à notre solution de vestiaire à l’américaine, nous concevons des espaces d’entraînement et de renforcement musculaire clés en main, à destination des athlètes professionnels comme des sportifs amateurs. Le nombre de machines et d’équipements est défini selon la surface disponible et votre budget, tandis que leur typologie est sélectionnée en fonction des disciplines pratiquées par vos usagers. Au-delà des équipements, nous accordons une attention particulière à la conception globale de l’espace : murs, sols, éclairages, automatismes, et autres. Tout est pensé pour créer un environnement à la fois fonctionnel, esthétique et inspirant. Nous intégrons également des solutions pratiques : rangements, mobilier adapté, optimisation des flux, etc. Nous utilisons exclusivement des matériaux de qualité, reconnus pour leur durabilité, performance et design."
+      },
+           a5: {
+        img: "https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/4.svg?v=1743371432425",
+        title: "Chambres",
+        paragraph: "Notre offre dédiée à l’aménagement de chambres pour les usagers sportifs se distingue par l’optimisation de l’espace, la modularité et l’intégration intelligente des équipements. Nous combinons les éléments standards (WC, douches, lavabos, éclairages, literie, décoration…) avec des dispositifs techniques comme les systèmes d’hypoxie (simulateurs d’altitude), pour offrir une chambre à la fois confortable, fonctionnelle et pensée pour la performance. De la conception architecturale à l’implantation sur site, nous intervenons à chaque étape. Au-delà de l’aspect fonctionnel, nous concevons une expérience centrée sur le sport, avec des aménagements ajustés selon les disciplines pratiquées par vos usagers. Nos chambres sont pensées pour être confortables selon les attentes des athlètes, tout en offrant un fort impact visuel, idéal pour le relai sur les réseaux sociaux et le développement de votre image de marque."
+      },
+           a6: {
+        img: "https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/12.svg?v=1743371446928",
+        title: "Pratique du vélo en indoor",
+        paragraph: "Généralement associé à notre solution de vestiaire à l’américaine, nous concevons un espace indoor dédié à la pratique du vélo, pensé comme une salle immersive au design entièrement personnalisé. Chaque détail est travaillé — murs, sols, éclairages, automatismes — pour créer une atmosphère sportive marquante, tout en intégrant des solutions pratiques : rangements, mobilier adapté, optimisation des flux, etc. Selon vos besoins, nous installons soit des home trainers connectés permettant aux cyclistes d’utiliser leur propre vélo, soit des vélos connectés positionnés face à un écran géant (dalles LED, vidéoprojecteur ou écrans multiples) pour une expérience engageante. Un système de ventilation orienté dans le sens de la course vient renforcer l’immersion en rafraîchissant l’espace et en simulant les conditions réelles. Si l’espace est implanté au sein d’un hôtel, une attention particulière est portée à l’isolation phonique afin de garantir la tranquillité du reste de l’établissement."
+      },
+           a8: {
+        img: "https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/9.svg?v=1743371873996",
+        title: "Pressothérapie",
+        paragraph: "Pour réduire la sensation de jambes lourdes et favoriser la récupération musculaire, la pressothérapie s’impose comme une solution efficace. Véritable moment de détente et de bien-être, cette technique reproduit les mouvements du palper-rouler pour accélérer la récupération après l’effort. Nous proposons l’installation d’une pièce autonome dédiée, accessible via une porte avec contrôle d’accès. Cet espace peut accueillir un ou plusieurs utilisateurs selon la configuration. Les athlètes avancés ou professionnels apprécieront de retrouver ce service sans avoir à transporter leur propre équipement, tandis que les sportifs amateurs seront ravis de découvrir les bienfaits de ce soin innovant, directement intégré à leur environnement d’entraînement."
+      },
+           a9: {
+        img: "https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/13.svg?v=1743371450654",
+        title: "Massages",
+        paragraph: "De l’aménagement de l’espace à la formation du personnel, en passant par la création de partenariats locaux avec des masseurs et masseuses qualifié·e·s, nous déployons une solution complète pour intégrer le massage sportif à votre établissement. Véritable outil de récupération, le massage aide à éliminer les toxines, à relâcher les tensions musculaires et à accélérer la régénération après l’effort. En phase d’activation, il stimule la circulation sanguine, prépare les muscles à la performance et améliore la souplesse ainsi que la réactivité. Si les athlètes professionnels voyagent souvent avec leur propre staff, les sportifs amateurs ou les professionnels en déplacement individuel seront particulièrement sensibles à la présence de ce service, perçu comme un vrai plus dans leur expérience sur place."
+      },
+           a10: {
+        img: "https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/14.svg?v=1743371452519",
+        title: "Yoga",
+        paragraph: "Proposez à vos clients un espace dédié à la pratique du yoga, avec ou sans intervenant. Le yoga, particulièrement bénéfique pour les sportifs, permet non seulement de détendre les muscles et d’accroître la souplesse, mais il renforce aussi le mental. Par exemple, les exercices de yoga pour les cyclistes aident à renforcer le dos, à assouplir le thorax, et à détendre les muscles des cuisses et les fessiers, en plus de favoriser le bien-être mental. Nous aménageons et équipons cet espace, en veillant particulièrement à l’acoustique et à l’installation d’un revêtement de sol spécifiquement adapté. Cet espace est accessible de manière autonome et sécurisé grâce à notre contrôle d’accès. Si vous souhaitez proposer des séances encadrées, nous pouvons également former vos collaborateurs aux diplômes nécessaires ou établir des partenariats avec des intervenants locaux qualifiés."
+      },           a11: {
+        img: "https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/2.svg?v=1743371852709",
+        title: "Distributeur collations",
+        paragraph: "Un distributeur automatique personnalisé à l’image de votre établissement, alimenté par notre propre système logistique! Il propose une sélection de collations sportives (gels, comprimés effervescents, barres énergétiques, pâtes de fruits, compotes, etc.), choisies par notre nutritionniste en fonction des disciplines pratiquées par vos usagers. Nous recommandons également d’y intégrer des essentiels : baumes, crèmes, piles plates, cartouches CO2, connecteurs de chaîne et autres. Des produits pensés pour répondre aux besoins concrets des communautés sportives, comme les cyclistes. Les achats peuvent se faire via plusieurs modèles économiques : paiement sans contact (carte bancaire, Apple Pay), accès via une web app dédiée à l’expérience sport, ou encore en libre-service."
+      },
+           a12: {
+        img: "https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/16.svg?v=1743372369243",
+        title: "Distributeur boissons",
+        paragraph: "Un distributeur automatique personnalisé à l’image de votre établissement, approvisionné par notre propre système logistique. Offrez à vos usagers une sélection de boissons chaudes (cafés, chocolats, thés, etc.) et de boissons froides (énergétiques, jus, laits, etc.). Les achats peuvent s’effectuer selon plusieurs modèles économiques : paiement sans contact (carte bancaire, Apple Pay), accès via une web app dédiée à l’expérience sport, ou encore en libre-service."
+      },
+           a14: {
+        img: "https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/20.svg?v=1743371460578",
+        title: "Espaces extrasportifs",
+        paragraph: "Idéaux pour la location ou la mise à disposition en complément de votre offre, les espaces extra-sportifs — tels que les amphithéâtres, salles de coworking ou autres — permettent à vos usagers d’organiser briefings, séminaires ou réunions dans des conditions optimales. Notre architecte conçoit pour vous un aménagement unique, entièrement personnalisé à l’identité de votre établissement, avec un design soigné et des modules pensés pour allier esthétique et fonctionnalité. Chaque espace est équipé de matériaux haut de gamme, choisis pour leur durabilité, leur qualité et leur facilité d’entretien. Nous intégrons tous les systèmes nécessaires au confort et à la performance : ventilation, isolation, contrôle d’accès, éclairage, ainsi que les dernières technologies (dalles LED pour écrans géants, connectivité avancée, etc.)."
+      },
+           a15: {
+        img: "https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/11.svg?v=1743371445102",
+        title: "Atelier mécanique",
+        paragraph: "Idéal pour les sports mécaniques comme le cyclisme, nous concevons et équipons de A à Z un espace dédié à la maintenance et à l’entretien mécanique, adapté à la surface que vous souhaitez y consacrer. Selon vos besoins, nous pouvons intégrer un contrôle d’accès, des systèmes antivol pour les outils, ainsi qu’un dispositif de vidéosurveillance pour prévenir toute dégradation. L’aménagement intérieur — murs, sols, éclairages, automatismes — est pensé en cohérence avec la charte de votre établissement afin d’offrir une expérience utilisateur à la fois agréable, pratique et stimulante. Chaque espace est doté de modules fonctionnels pour assurer un confort d’usage optimal. Enfin, tous les matériaux et équipements sont soigneusement sélectionnés pour leur durabilité, leur robustesse et leur facilité d’entretien."
+      },
+           a16: {
+        img: "https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/10.svg?v=1743371441482",
+        title: "Station de lavage",
+        paragraph: "Généralement en complément de l’atelier mécanique, nous proposons l’installation d’une station de lavage équipée d’un système de nettoyage combinant eau et air comprimé, associé à un dispositif d’évacuation et de traitement des eaux grises et liquides industriels (graisses, huiles, etc.). Cette station peut être installée en intérieur ou en extérieur, et l’aménagement final s’adapte en conséquence : dalle carrelée, revêtement PVC technique ou autre solution selon vos contraintes. Nous intégrons divers équipements et outils — brosses, chiffons, clés, supports — pour assurer un usage complet et intuitif. Afin de rendre l’expérience de lavage à la fois efficace et qualitative, nous accordons une attention particulière au choix des matériaux, à la cohérence esthétique avec votre charte graphique et à l’utilisation de modules robustes, durables et faciles d’entretien. "
+      },
+                 a19: {
+        img: "https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/fd.svg?v=1743372561229",
+        title: "Bus et camions aménagés",
+        paragraph: "Nous aménageons des véhicules et poids lourds dédiés aux activités sportives ou d’aventure, pour un usage amateur comme professionnel. Qu’il s’agisse de bus, minibus, vans, camions ou autres formats, chaque projet est pensé sur mesure selon le type de véhicule, la discipline concernée et vos besoins spécifiques. Nous intégrons de nombreux modules fonctionnels : rangements, couchages, douches, lavabos, cuisine, réfrigérateur, station de lavage, atelier mécanique, sièges racing ou confort, batteries, réserves d’eau, etc. En plus de ces modules techniques, nous concevons l’ensemble des aménagements sur mesure à partir de matériaux durables, résistants et adaptés à un usage intensif. Le tout est personnalisé à l’image de votre établissement, de votre équipe ou de votre marque, avec un design fort et immersif : éclairages, revêtements, broderies, marquages… Notre architecte spécialisé dans l’aménagement mobile veille également au strict respect des normes techniques et de sécurité."
+      },
+      
+           a17: {
+        img: "https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/18.svg?v=1743372375188",
+        title: "Voiture cycliste de service",
+        paragraph: "Nous aménageons des véhicules légers dédiés aux activités sportives ou d’aventure, pour des usages aussi bien amateurs que professionnels. Il peut s’agir de minibus, SUV, berlines ou camionnettes, que nous équipons selon le modèle, la discipline concernée et vos objectifs. De nombreux modules peuvent être intégrés : racks extérieurs pour vélos ou skis, rangements optimisés, lits d’appoint, mini-douches, lavabos, mini-cuisines, stations de lavage compactes, mini ateliers mécaniques, batteries, réserves d’eau, et bien plus encore. En complément des éléments préconçus, tous les aménagements sont réalisés sur mesure à partir de matériaux durables et adaptés à un usage intensif. Chaque véhicule est personnalisé à l’image de votre établissement, équipe ou projet, avec un design remarquable mêlant éclairages, revêtements, broderies, marquages et finitions esthétiques. Notre architecte spécialisé en aménagements mobiles veille au respect des normes techniques et de sécurité pour garantir performance, confort et fiabilité sur tous les terrains."
+      },
+           a18: {
+        img: "https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/19.svg?v=1743371459042",
+        title: "Parking et bornes énergies",
+        paragraph: "Nous aménageons des espaces extérieurs uniques, qui se distinguent des parkings standards pour offrir une véritable expérience jusqu’à l’extérieur de votre établissement. Transformez votre parking en vecteur commercial et en zone d’accueil fonctionnelle. Nous y intégrons des modules pratiques pour la réception de bus ou camions d’équipes, comme des bornes énergie permettant un raccordement facile à l’électricité et à l’eau courante. Nos conceptions prennent en compte la capacité d’accueil de poids lourds et l’optimisation de l’espace disponible, afin d’assurer fluidité et efficacité. Notre service inclut l’ensemble des étapes : bureau d’études, terrassement, pose du revêtement, intégration des réseaux et installation des équipements (bornes énergie, barrières à badge, abris, signalétique, végétation, mobilier, etc.). Le parking peut être entièrement personnalisé selon votre charte graphique : couleurs, logos, typographie et finitions sur mesure."
+      },
+           a21: {
+        img: "https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/17.svg?v=1743372371695",
+        title: "Lavomatique",
+        paragraph: "Installer une laverie autonome au sein de votre établissement, notamment lorsqu’il accueille des sportifs, constitue un service essentiel pour les usagers ayant besoin de laver régulièrement leurs vêtements après l’effort. Ce service renforce le confort et l’autonomie des clients, tout en valorisant l’image de votre structure comme un lieu adapté, pratique et attentif aux besoins spécifiques de chacun. Accessible en libre-service et en toute sécurité, cette laverie permet des lessives rapides sans dépendre du service d’entretien. Nous assurons l’installation clé en main ainsi que la maintenance complète de l’espace. Selon la configuration, il est possible d’installer jusqu’à 10 machines dans une surface optimisée de 15 à 25 m²."
+      },
+                 a13: {
+        img: "https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/22.svg?v=1743371466056",
+        title: "Commerce et social",
+        paragraph: "Nous vous accompagnons dans le déploiement de solutions digitales intelligentes, l’optimisation de vos services en ligne et la mise en place d’une stratégie sociale adaptée à votre établissement. L’objectif : offrir à vos usagers une expérience connectée fluide, intuitive et performante, tout en automatisant de nombreux processus chronophages. Nous activons également les bons leviers numériques pour renforcer votre visibilité et stimuler vos ventes. Enfin, parce que le sport reste avant tout un vecteur humain, nous vous proposons un accompagnement en marketing communautaire, pour créer ou renforcer une communauté engagée, favoriser une communication organique et fidéliser durablement vos usagers."
+      },
+                 a99: {
+        img: "https://cdn.glitch.global/145a7754-d546-4dc1-9c3a-c64efeb7fc2d/defib.svg?v=1743777276615",
+        title: "Défibrillateurs",
+        paragraph: "Au-delà des obligations légales propres à votre établissement, disposer d’un défibrillateur constitue un véritable atout en cas d’urgence, permettant une intervention rapide et efficace. C’est aussi un signal fort de votre engagement en faveur de la sécurité de vos usagers. Nous vous accompagnons à chaque étape : réflexion sur le déploiement, installation, formation à l’utilisation et maintenance préventive. Le défibrillateur peut être installé en intérieur comme en extérieur, grâce à des coffrets sécurisés et adaptés à chaque environnement."
+      }
+      
+      
+      
+    };
+
+
+const dropdownBtn = document.querySelector('.dropdown-btn');
+const dropdownContent = document.querySelector('.dropdown-content');
+    const imgEl = document.getElementById('main-img');
+    const titleEl = document.getElementById('main-title');
+    const paraEl = document.getElementById('main-paragraph');
+
+  const select = document.getElementById('dropdown');
+  const ghost = document.getElementById('ghost');
+const style = window.getComputedStyle(select);
+const paddingLeft = parseInt(style.paddingLeft);
+const paddingRight = parseInt(style.paddingRight);
+const totalPadding = paddingLeft + paddingRight;
+
+    
+    
+  function adjustWidth() {
+    const selectedOption = select.options[select.selectedIndex];
+    ghost.textContent = selectedOption.text;
+    const width = ghost.offsetWidth;
+    select.style.width = (width + 55 + totalPadding) + 'px';
+
+  }
+
+  // Ajustement initial
+  adjustWidth();
+
+  // Ajustement à chaque changement
+  select.addEventListener('change', adjustWidth);
+
+    
+select.addEventListener('change', (e) => {
+  const key = e.target.value;
+  const content = data[key];
+  if (content) {
+    imgEl.src = content.img;
+    titleEl.textContent = content.title;
+    paraEl.textContent = content.paragraph;
+  }
+});
+
+    
+    
+    dropdownBtn.addEventListener('click', () => {
+  dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
+});
+
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.dropdown')) {
+    dropdownContent.style.display = 'none';
+  }
+});
+    
+
+
+    document.querySelectorAll('.dropdown-content div').forEach(item => {
+      item.addEventListener('click', () => {
+        const key = item.getAttribute('data-key');
+        const content = data[key];
+        if (content) {
+          // Fade out
+          imgEl.style.opacity = 0;
+          titleEl.style.opacity = 0;
+          paraEl.style.opacity = 0;
+
+          setTimeout(() => {
+            imgEl.src = content.img;
+            titleEl.textContent = content.title;
+            paraEl.textContent = content.paragraph;
+
+            // Fade in
+            imgEl.style.opacity = 1;
+            titleEl.style.opacity = 1;
+            paraEl.style.opacity = 1;
+          }, 300);
+
+          dropdownContent.style.display = 'none';
+        }
+      });
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.dropdown')) {
+        dropdownContent.style.display = 'none';
+      }
+    });
+    
+    
+  </script>
+</body>
 </html>
