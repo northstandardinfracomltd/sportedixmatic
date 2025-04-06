@@ -288,7 +288,7 @@ background: #e5ff6a;
       z-index: 10;
     }
     header img {
-      height: 58px;
+      height: 60px;
     }
     .dropdown {
       position: relative;
@@ -303,8 +303,8 @@ background: #e5ff6a;
     
     select:hover {
     transition-duration: 0s !important;
-    box-shadow: 0 0 0px 7px #008eff38;
-    border: 1px solid #008eff38;
+    box-shadow: 0 0 0px 7px #00000024;
+    border: 1px solid #00000024;
 }
     select:focus {
   outline: none;
@@ -426,7 +426,7 @@ display: flex;
     font-size: 22px !important;
     border-radius: 15px !important;
     z-index: 999999999 !important;
-    width: 285px !important;
+    width: 215px !important;
     text-decoration: none !important;
 
     }
@@ -551,6 +551,20 @@ text-align: center !important;
     border: 1px solid color(display-p3 0 0 0) !important;
       width: auto;
     }
+    
+    select {
+  margin-left: 0 !important;
+  max-width: 100% !important;
+  margin-top: 10px !important;
+
+  text-align: center;
+  text-align-last: center; /* très important pour centrer le texte sélectionné */
+  padding-right: 2em; /* espace pour la flèche */
+  
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
 
         .mon-paragraphe {
       font-size: 13px !important;
@@ -608,7 +622,17 @@ text-align: center !important;
     font-family: "saasduoPAR" !important;
 }
     
+        .tag1:hover {
+    transition-duration: 0s !important;
+    box-shadow: 0 0 0px 7px #00000024;
+    border: 1px solid #00000024;
+}
     
+            .tag2:hover {
+    transition-duration: 0s !important;
+    box-shadow: 0 0 0px 7px #00000024;
+    border: 1px solid #00000024;
+}
     .tag1 {
 text-align: center;
     background-color: #000000;
